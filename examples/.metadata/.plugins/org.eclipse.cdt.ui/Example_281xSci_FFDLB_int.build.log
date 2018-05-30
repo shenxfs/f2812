@@ -1,0 +1,13 @@
+
+**** Clean-only build of configuration Debug for project Example_281xSci_FFDLB_int ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k clean 
+ 
+rm -rf  "Example_281xSci_FFDLB_int.hex"  "Example_281xSci_FFDLB_int.out" 
+rm -rf "DSP281x_CodeStartBranch.obj" "DSP281x_DefaultIsr.obj" "DSP281x_GlobalVariableDefs.obj" "DSP281x_PieCtrl.obj" "DSP281x_PieVect.obj" "DSP281x_SysCtrl.obj" "Example_281xSci_FFDLB_int.obj" 
+rm -rf "DSP281x_DefaultIsr.d" "DSP281x_GlobalVariableDefs.d" "DSP281x_PieCtrl.d" "DSP281x_PieVect.d" "DSP281x_SysCtrl.d" "Example_281xSci_FFDLB_int.d" 
+rm -rf "DSP281x_CodeStartBranch.d" 
+Finished clean
+ 
+
+**** Build Finished ****

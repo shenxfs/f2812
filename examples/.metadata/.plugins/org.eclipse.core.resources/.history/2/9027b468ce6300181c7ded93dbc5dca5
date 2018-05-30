@@ -1,0 +1,96 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+/Users/shenxf/f281x/DSP281x_headers/cmd/DSP281x_Headers_nonBIOS.cmd \
+/Users/shenxf/f281x/DSP281x_common/cmd/F2812_XintfBoot.cmd 
+
+ASM_SRCS += \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_DBGIER.asm \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_XintfBootReset.asm 
+
+C_SRCS += \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_CpuTimers.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_DefaultIsr.c \
+/Users/shenxf/f281x/DSP281x_headers/source/DSP281x_GlobalVariableDefs.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_MemCopy.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_PieCtrl.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_PieVect.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_SysCtrl.c \
+/Users/shenxf/f281x/DSP281x_common/source/DSP281x_Xintf.c \
+../Example_281xCodeRunFromXintf.c 
+
+C_DEPS += \
+./DSP281x_CpuTimers.d \
+./DSP281x_DefaultIsr.d \
+./DSP281x_GlobalVariableDefs.d \
+./DSP281x_MemCopy.d \
+./DSP281x_PieCtrl.d \
+./DSP281x_PieVect.d \
+./DSP281x_SysCtrl.d \
+./DSP281x_Xintf.d \
+./Example_281xCodeRunFromXintf.d 
+
+OBJS += \
+./DSP281x_CpuTimers.obj \
+./DSP281x_DBGIER.obj \
+./DSP281x_DefaultIsr.obj \
+./DSP281x_GlobalVariableDefs.obj \
+./DSP281x_MemCopy.obj \
+./DSP281x_PieCtrl.obj \
+./DSP281x_PieVect.obj \
+./DSP281x_SysCtrl.obj \
+./DSP281x_Xintf.obj \
+./DSP281x_XintfBootReset.obj \
+./Example_281xCodeRunFromXintf.obj 
+
+ASM_DEPS += \
+./DSP281x_DBGIER.d \
+./DSP281x_XintfBootReset.d 
+
+OBJS__QUOTED += \
+"DSP281x_CpuTimers.obj" \
+"DSP281x_DBGIER.obj" \
+"DSP281x_DefaultIsr.obj" \
+"DSP281x_GlobalVariableDefs.obj" \
+"DSP281x_MemCopy.obj" \
+"DSP281x_PieCtrl.obj" \
+"DSP281x_PieVect.obj" \
+"DSP281x_SysCtrl.obj" \
+"DSP281x_Xintf.obj" \
+"DSP281x_XintfBootReset.obj" \
+"Example_281xCodeRunFromXintf.obj" 
+
+C_DEPS__QUOTED += \
+"DSP281x_CpuTimers.d" \
+"DSP281x_DefaultIsr.d" \
+"DSP281x_GlobalVariableDefs.d" \
+"DSP281x_MemCopy.d" \
+"DSP281x_PieCtrl.d" \
+"DSP281x_PieVect.d" \
+"DSP281x_SysCtrl.d" \
+"DSP281x_Xintf.d" \
+"Example_281xCodeRunFromXintf.d" 
+
+ASM_DEPS__QUOTED += \
+"DSP281x_DBGIER.d" \
+"DSP281x_XintfBootReset.d" 
+
+C_SRCS__QUOTED += \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_CpuTimers.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_DefaultIsr.c" \
+"/Users/shenxf/f281x/DSP281x_headers/source/DSP281x_GlobalVariableDefs.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_MemCopy.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_PieCtrl.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_PieVect.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_SysCtrl.c" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_Xintf.c" \
+"../Example_281xCodeRunFromXintf.c" 
+
+ASM_SRCS__QUOTED += \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_DBGIER.asm" \
+"/Users/shenxf/f281x/DSP281x_common/source/DSP281x_XintfBootReset.asm" 
+
+

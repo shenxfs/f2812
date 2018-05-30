@@ -1,0 +1,13 @@
+
+**** Clean-only build of configuration Debug for project Example_281xSWPrioritizedInterrupts ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k clean 
+ 
+rm -rf  "Example_281xSWPrioritizedInterrupts.hex"  "Example_281xSWPrioritizedInterrupts.out" 
+rm -rf "DSP281x_CodeStartBranch.obj" "DSP281x_GlobalVariableDefs.obj" "DSP281x_PieCtrl.obj" "DSP281x_SWPrioritizedPieVect.obj" "DSP281x_SysCtrl.obj" "Example_281xSWPrioritizedDefaultIsr.obj" "Example_281xSWPrioritizedInterrupts.obj" 
+rm -rf "DSP281x_GlobalVariableDefs.d" "DSP281x_PieCtrl.d" "DSP281x_SWPrioritizedPieVect.d" "DSP281x_SysCtrl.d" "Example_281xSWPrioritizedDefaultIsr.d" "Example_281xSWPrioritizedInterrupts.d" 
+rm -rf "DSP281x_CodeStartBranch.d" 
+Finished clean
+ 
+
+**** Build Finished ****

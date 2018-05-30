@@ -1,0 +1,62 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+DSP281x_CodeStartBranch.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_CodeStartBranch.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_DefaultIsr.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_DefaultIsr.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_GlobalVariableDefs.obj: /Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_GlobalVariableDefs.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_Gpio.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_Gpio.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_Gpio.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_PieCtrl.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_PieCtrl.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_PieVect.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_PieVect.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+DSP281x_SysCtrl.obj: /Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="DSP281x_SysCtrl.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+Example_281xGpioLoopback.obj: ../Example_281xGpioLoopback.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/gpio_loopback/Debug" --preproc_with_compile --preproc_dependency="Example_281xGpioLoopback.d_raw" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

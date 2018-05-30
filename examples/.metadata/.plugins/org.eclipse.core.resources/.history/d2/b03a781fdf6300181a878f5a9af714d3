@@ -1,0 +1,78 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+/Users/shenxf/F2812/Drivers/headers/cmd/DSP281x_Headers_nonBIOS.cmd \
+/Users/shenxf/F2812/Drivers/common/cmd/F2812_EzDSP_RAM_lnk.cmd 
+
+ASM_SRCS += \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm 
+
+C_SRCS += \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_CpuTimers.c \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c \
+/Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c \
+/Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c \
+../Example_281xCpuTimer.c 
+
+C_DEPS += \
+./DSP281x_CpuTimers.d \
+./DSP281x_DefaultIsr.d \
+./DSP281x_GlobalVariableDefs.d \
+./DSP281x_PieCtrl.d \
+./DSP281x_PieVect.d \
+./DSP281x_SysCtrl.d \
+./Example_281xCpuTimer.d 
+
+OBJS += \
+./DSP281x_CodeStartBranch.obj \
+./DSP281x_CpuTimers.obj \
+./DSP281x_DefaultIsr.obj \
+./DSP281x_GlobalVariableDefs.obj \
+./DSP281x_PieCtrl.obj \
+./DSP281x_PieVect.obj \
+./DSP281x_SysCtrl.obj \
+./Example_281xCpuTimer.obj 
+
+ASM_DEPS += \
+./DSP281x_CodeStartBranch.d 
+
+OBJS__QUOTED += \
+"DSP281x_CodeStartBranch.obj" \
+"DSP281x_CpuTimers.obj" \
+"DSP281x_DefaultIsr.obj" \
+"DSP281x_GlobalVariableDefs.obj" \
+"DSP281x_PieCtrl.obj" \
+"DSP281x_PieVect.obj" \
+"DSP281x_SysCtrl.obj" \
+"Example_281xCpuTimer.obj" 
+
+C_DEPS__QUOTED += \
+"DSP281x_CpuTimers.d" \
+"DSP281x_DefaultIsr.d" \
+"DSP281x_GlobalVariableDefs.d" \
+"DSP281x_PieCtrl.d" \
+"DSP281x_PieVect.d" \
+"DSP281x_SysCtrl.d" \
+"Example_281xCpuTimer.d" 
+
+ASM_DEPS__QUOTED += \
+"DSP281x_CodeStartBranch.d" 
+
+ASM_SRCS__QUOTED += \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm" 
+
+C_SRCS__QUOTED += \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_CpuTimers.c" \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c" \
+"/Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c" \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c" \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c" \
+"/Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c" \
+"../Example_281xCpuTimer.c" 
+
+

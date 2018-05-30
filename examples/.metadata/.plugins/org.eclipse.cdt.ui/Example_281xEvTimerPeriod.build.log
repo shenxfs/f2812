@@ -1,0 +1,47 @@
+
+**** Build of configuration Debug for project Example_281xEvTimerPeriod ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k all 
+ 
+Building file: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_CodeStartBranch.d_raw"  "/Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm"
+Finished building: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_CodeStartBranch.asm"
+ 
+Building file: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_DefaultIsr.d_raw"  "/Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c"
+Finished building: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_DefaultIsr.c"
+ 
+Building file: "/Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_GlobalVariableDefs.d_raw"  "/Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c"
+Finished building: "/Users/shenxf/F2812/Drivers/headers/source/DSP281x_GlobalVariableDefs.c"
+ 
+Building file: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_PieCtrl.d_raw"  "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c"
+Finished building: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieCtrl.c"
+ 
+Building file: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_PieVect.d_raw"  "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c"
+Finished building: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_PieVect.c"
+ 
+Building file: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="DSP281x_SysCtrl.d_raw"  "/Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c"
+Finished building: "/Users/shenxf/F2812/Drivers/common/source/DSP281x_SysCtrl.c"
+ 
+Building file: "../Example_281xEvTimerPeriod.c"
+Invoking: C2000 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" --include_path="/Users/shenxf/F2812/Drivers/headers/include" --include_path="/Users/shenxf/F2812/Drivers/common/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" --preproc_with_compile --preproc_dependency="Example_281xEvTimerPeriod.d_raw"  "../Example_281xEvTimerPeriod.c"
+Finished building: "../Example_281xEvTimerPeriod.c"
+ 
+Building target: "Example_281xEvTimerPeriod.out"
+Invoking: C2000 Linker
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/bin/cl2000" -v28 -ml -mt --define=_DEBUG --define=LARGE_MODEL -g --diag_warning=225 --issue_remarks --quiet --asm_directory="C:/tidcs/c28/DSP281x/v120/DSP281x_examples_ccsv4/ev_timer_period/Debug" -z -m"Example_281xEvTimerPeriod.map" --stack_size=0x400 --warn_sections -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/lib" -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include" -i"/Users/shenxf/F2812/Drivers/examples/Example_281xEvTimerPeriod" -i"/Users/shenxf/F2812/Drivers/headers/include" --reread_libs --xml_link_info="Example_281xEvTimerPeriod_linkInfo.xml" --rom_model -o "Example_281xEvTimerPeriod.out" "./DSP281x_CodeStartBranch.obj" "./DSP281x_DefaultIsr.obj" "./DSP281x_GlobalVariableDefs.obj" "./DSP281x_PieCtrl.obj" "./DSP281x_PieVect.obj" "./DSP281x_SysCtrl.obj" "./Example_281xEvTimerPeriod.obj" "/Users/shenxf/F2812/Drivers/headers/cmd/DSP281x_Headers_nonBIOS.cmd" "/Users/shenxf/F2812/Drivers/common/cmd/F2812_EzDSP_RAM_lnk.cmd"  -lrts2800_ml.lib 
+Finished building target: "Example_281xEvTimerPeriod.out"
+ 
+
+**** Build Finished ****
